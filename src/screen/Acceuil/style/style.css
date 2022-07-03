@@ -1,0 +1,62 @@
+#Acceuil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Acceuil #navToEmployees {
+  background-color: transparent;
+  border-width: 0px;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+#Acceuil .titre {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Acceuil form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#Acceuil form label {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+#Acceuil form fieldset {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#Acceuil .save {
+  margin-top: 2em;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */

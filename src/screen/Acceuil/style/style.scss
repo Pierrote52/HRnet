@@ -1,0 +1,34 @@
+#Acceuil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    #navToEmployees{
+        background-color: transparent;
+        border-width: 0px;
+        text-decoration: underline;
+        color: blueviolet;
+    }
+    .titre{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        label{
+            margin: 10px;
+            margin-left: 0px;
+        }
+    fieldset{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    .save{
+        margin-top: 2em;
+        font-size: 20px;
+    }
+}
